@@ -31,7 +31,7 @@ Six Models Used:
 ## Model Performance
 * **XGBoost:** Accuracy - 67%
 * **Light Gradient Boost:** Accuracy - 66%
-* ** Naive Bayes (Guassian):** Accuracy - 64%
+* **Naive Bayes (Guassian):** Accuracy - 64%
 * **Logistic Regression:** Accuracy - 63%
 * **K-nearest Neighbors:** Accuracy - 64%
 * **Support Vector Machine:** Accuracy - 64%

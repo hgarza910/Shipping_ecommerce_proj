@@ -1,11 +1,11 @@
 # E-commerce Shipping Predictor
 ## Overview
-This project focuses on building a predictive calssification model for the E-commerce shipping industry. The goal is to classify shipments as delivered on time or not by leveraging customer and shipment data obtained from and e-commerce 'company'. 
-* A tool to predict the on-time delivery of a package shipped by a company, describes as: Yes, will be delivered on time or No, will not.
-* Dataset of 11,000 packages shipped containing package and customer information
+This project focuses on building a predictive calssification model for the E-commerce shipping industry. The goal is to classify shipments as delivered on time or not by leveraging customer and shipment data obtained from an e-commerce 'company'. 
+* A tool to predict the on-time delivery of a package shipped by a company, describes as: Yes or No, the package will be delivered on time.
+* Dataset of 11,000 packages shipped containing package and customer information.
 * Tested many different classification algorithms including Naive Bayes-Gaussian, Logistic Regression, KNN, SVM, Random Forest, and Gradient Boosting.
-* Optimized XGBoost Classifier to reach a model with an accuracy of 67%
-* Built and integrated model into RESTful API using Flask
+* Optimized XGBoost Classifier to reach a model with an accuracy of 67%.
+* Built and integrated model into RESTful API using Flask.
 
 ## Motivation
 The motivation behind this project is to help an international e-commerce company gain key insights by employing advanced machine learning techniques to analyze customer data and gain valuable insights. By exploring vaious machine learning models and tuning techniques, the objective is to identify the best performing mdoel that can accurately predict whether or not a shipment will be delivered on time. 

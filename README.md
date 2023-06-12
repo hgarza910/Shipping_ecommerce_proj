@@ -23,8 +23,12 @@ The follow aspects were explored:
 * Correlations between each variable using a heatmap.
 * Comparisons of categorical variables.
 * Analysis of delivered shipments in relation to independent variables using pivot tables.
-![](Images/customer_boxplot.png) ![](Images/package_weight_boxplot.png) ![](Images/heatmap_correlations.png)
-![](Images/pivot_customer_rating_vs_class.png) ![](Images/pivot_discount_offered_vs_class.png)
+
+![](Images/customer_boxplot.png) 
+![](Images/package_weight_boxplot.png) 
+![](Images/heatmap_correlations.png)
+![](Images/pivot_customer_rating_vs_class.png) 
+![](Images/pivot_discount_offered_vs_class.png)
 
 ## Model Exploration and Building
 Since the problem at hand involved classification, a range of classification models were explored.
@@ -55,9 +59,13 @@ Here is how each model performed:
 The XGBoost model demonstrated the best performance based on evaluation metrics. To further enhance its performance, a deeper analysis of the model was conducted. Log-loss was evaluated to identify potential overfitting issues and determine the appropriate number of stopping rounds for training. Moreover,
 the model was fine-tuned by adjusting the learning rate and estimators to maximize performance. Both Gridsearch and Randomsearch cross-validation techniques were employed to identify the optimal parameters.
 
-![](Images/xgboost_log_loss.png) ![](Images/xgboost_classification_error.png) ![](Images/xgboost_gridsearchcv_best_parameters.png) 
+![](Images/xgboost_log_loss.png) 
+![](Images/xgboost_classification_error.png) 
+![](Images/xgboost_gridsearchcv_best_parameters.png) 
 ![](Images/xgboost_gridsearchcv_accuracy.png)
-![](Images/xgboost_randomcv_best_parameters.png) ![](Images/xgboost_randomcv_accuracy.png) ![](Images/xgboost_tuned_accuracy.png)
+![](Images/xgboost_randomcv_best_parameters.png) 
+![](Images/xgboost_randomcv_accuracy.png) 
+![](Images/xgboost_tuned_accuracy.png)
 
 ## Code and Resource Reference
 **Python Version:** 3.9

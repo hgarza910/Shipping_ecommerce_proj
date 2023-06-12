@@ -1,7 +1,7 @@
 # E-commerce Shipping Predictor
 ## Overview
-This project focuses on building a predictive calssification model for the E-commerce shipping industry. The goal is to classify shipments as delivered on time or not by leveraging customer and shipment data obtained from an e-commerce 'company'. 
-* A tool to predict the on-time delivery of a package shipped by a company, describes as: Yes or No, the package will be delivered on time.
+This project focuses on building a predictive classification model for the e-commerce shipping industry. The goal is to classify shipments as delivered on time or not by leveraging customer and shipment data obtained from an e-commerce 'company'. 
+* A tool to predict the on-time delivery of a package shipped by a company, described as: Yes or No, the package will be delivered on time.
 * Dataset of 11,000 packages shipped containing package and customer information.
 * Tested many different classification algorithms including Naive Bayes-Gaussian, Logistic Regression, KNN, SVM, Random Forest, and Gradient Boosting.
 * Optimized XGBoost Classifier to reach a model with an accuracy of 67%.
@@ -85,7 +85,7 @@ the model was fine-tuned by adjusting the learning rate and estimators to maximi
 **Flask Production:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 ## Putting the Model Into Production
-In order to gain practical experience in deploying the model, a Restful API was implemented using Flask. The API was set up locally for testing purposes. With the API, clients can send requests with the required parameters and recieve a binary response indicating whether the package will be delivered on time or not. The model achieved a testing accuracy of 67% in this production enviornment.
+In order to gain practical experience in deploying the model, a Restful API was implemented using Flask. The API was set up locally for testing purposes. With the API, clients can send requests with the required parameters and receive a binary response indicating whether the package will be delivered on time or not. The model achieved a testing accuracy of 67% in this production environment.
 
 ## Conclusion, Thoughts and Considerations
 Through this project I achieved the following:
@@ -97,8 +97,8 @@ Through this project I achieved the following:
 During this project I acquired valuable lessons and considerations:
 * Trends, patterns and correlations were discovered when looking at delivery statuses and customer history.
 * Classification regression is very useful, especially in a binary context. 
-* Understanding Log-loss and how it affects a models training.
+* Understanding Log-loss and how it affects a model's training.
 * Implementing cross-validations techniques can estimate the best parameters to employ.
-* Integrating model into a Restful API is critcal to enhance a company and their resources. 
+* Integrating a model into a Restful API is critical to enhance a company and their resources. 
 
-Although the model achieved some level of accuracy, it falls short of the desired performance possibly due to overfitting. Future imporvements could involve incorporating backwards elimination to determine if the model can be enhanced further. Overall, this project provides a valuable opportunity to work with predictive classification models in the context of shipping commerce and exploring advanced machine learning techniques. 
+Although the model achieved some level of accuracy, it falls short of the desired performance possibly due to overfitting. Future improvements could involve incorporating backwards elimination to determine if the model can be enhanced further. Overall, this project provides a valuable opportunity to work with predictive classification models in the context of shipping commerce and exploring advanced machine learning techniques. 

@@ -23,7 +23,7 @@ The follow aspects were explored:
 * Correlations between each variable using a heatmap.
 * Comparisons of categorical variables.
 * Analysis of delivered shipments in relation to independent variables using pivot tables.
-![test](Images/customer_boxplot.png) ![](Images/package_weight_boxplot.png) ![](Images/heatmap_correlations.png)
+![](Images/customer_boxplot.png) ![](Images/package_weight_boxplot.png) ![](Images/heatmap_correlations.png)
 ![](Images/pivot_customer_rating_vs_class.png) ![](Images/pivot_discount_offered_vs_class.png)
 
 ## Model Exploration and Building

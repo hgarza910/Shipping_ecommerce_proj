@@ -38,21 +38,15 @@ The objective was to experiment with models that I had not previously encountere
 ## Model Testing
 Once the models were trained, they were tested and evaluated using various metrics. The Mean Absolute Error (MAE) was recorded as well as the negative mean absolute error using cross-validation. Additionally, the accuracy score for each model was calculated to asses their performance.
 Here is how each model performed:
-* XGBoost: MAE - , Accuracy - 67%
-* Light Gradient Boost: MAE - , Accuracy - 66%
-* Naive Bayes-Guassian: MAE - , Accuracy - 64%
-* Logistic Regression: MAE - , Accuracy - 63%
-* K-Nearest Neighbor: MAE, Accuracy - 64%
-* Support Vector Machine: MAE- , Accuracy - 64%
-* 
+ 
 | Model                   | MAE  | CV Score | Training Accuracy | Testing Accuracy |
 |:------------------------|:-----|:---------|:------------------|:-----------------|
 | XGBoost                 | 0.35 | -0.35    |       88%         |       65%        |
-| Light Gradient Boost
-| Naive Bayes-Gaussian
-| Logistic Regression 
-| K-Nearest Neighbor
-| Support Vector Machine |
+| Light Gradient Boost    | 0.34 | -0.34    |       81%         |       66%        |
+| Naive Bayes-Gaussian    | 0.36 | -0.35    |       65%         |       64%        |
+| Logistic Regression     | 0.37 | -0.37    |       63%         |       63%        |
+| K-Nearest Neighbor      | 0.36 | -0.36    |       77%         |       64%        |
+| Support Vector Machine  | 0.36 | -0.38    |       92%         |       64%        |
 
 ## Evaluation of Best Model
 The XGBoost model demonstrated the best performance based on evaluation metrics. To further enhance its performance, a deeper analysis of the model was conducted. Log-loss was evaluated to identify potential overfitting issues and determine the appropriate number of stopping rounds for training. Moreover,
@@ -86,4 +80,4 @@ During this project I acquired valuable lessons and considerations:
 * Implementing cross-validations techniques can estimate the best parameters to employ.
 * Integrating model into a Restful API is critcal to enhance a company and thier resources. 
 * 
-Although the model achieved some level of accuracy, it falls short of the desired performance. Future imporvements could involve incorporating backwards elimination to determine if the model can be enhanced further. Overall, this project provides a valuable opportunity to work with predictive classification models in the context of shipping commerce and exploring advanced machine learning techniques. 
+Although the model achieved some level of accuracy, it falls short of the desired performance possibly due to overfitting. Future imporvements could involve incorporating backwards elimination to determine if the model can be enhanced further. Overall, this project provides a valuable opportunity to work with predictive classification models in the context of shipping commerce and exploring advanced machine learning techniques. 

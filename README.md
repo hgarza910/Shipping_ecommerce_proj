@@ -24,6 +24,7 @@ The follow aspects were explored:
 * Comparisons of categorical variables.
 * Analysis of delivered shipments in relation to independent variables using pivot tables.
 ![]('Images/customer_boxplot.png') 
+
 ## Model Exploration and Building
 Since the problem at hand involved classification, a range of classification models were explored.
 These models included:

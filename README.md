@@ -1,6 +1,6 @@
 # E-commerce Shipping Predictor
 ## Overview
-This project focuses on building a predictive calssification model for the E-commerce shipping industry. The goal is to classify shipments as delivered on time or not by leveraging custer and shipment data obtained from and e-commerce 'company'. 
+This project focuses on building a predictive calssification model for the E-commerce shipping industry. The goal is to classify shipments as delivered on time or not by leveraging customer and shipment data obtained from and e-commerce 'company'. 
 * A tool to predict the on-time delivery of a package shipped by a company, describes as: Yes, will be delivered on time or No, will not.
 * Dataset of 11,000 packages shipped containing package and customer information
 * Tested many different classification algorithms including Naive Bayes-Gaussian, Logistic Regression, KNN, SVM, Random Forest, and Gradient Boosting.

@@ -16,12 +16,12 @@ The dataset used for this project consists of customers and shipped product info
 ## Exploritory Data Analysis (EDA)
 Before proceeding with the model building phase, an exploritory data analysis (EDA) was conducted to gain a better understanding of the dataset. 
 The follow aspects were explored:
-* Data types of the variables
-* Distributions of Customer Care Calls, Customer Ratings, Prior Purchases, Discounts Offered, and Package Weights
-* The spread of aforementioned variables as well as outliers
-* Correlations between each variable using a heatmap
-* Comparisons of categorical variables
-* Analysis of delivered shipments in relation to independent variables using pivot tables
+* Data types of the variables.
+* Distributions of Customer Care Calls, Customer Ratings, Prior Purchases, Discounts Offered, and Package Weights.
+* The spread of aforementioned variables as well as outliers.
+* Correlations between each variable using a heatmap.
+* Comparisons of categorical variables.
+* Analysis of delivered shipments in relation to independent variables using pivot tables.
 
 ## Model Exploration and Building
 Since the problem at hand involved classification, a range of classification models were explored.

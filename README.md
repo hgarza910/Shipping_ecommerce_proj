@@ -44,6 +44,8 @@ Here is how each model performed:
 * Logistic Regression: MAE - , Accuracy - 63%
 * K-Nearest Neighbors: MAE, Accuracy - 64%
 * Support Vector Machine: MAE- , Accuracy - 64%
+| Model | MAE | CV Score | Training Accuracy | Testing Accuracy |
+|:------|:----|:---------|:------------------|:-----------------|
 
 ## Evaluation of Best Model
 The XGBoost model demonstrated the best performance based on evaluation metrics. To further enhance its performance, a deeper analysis of the model was conducted. Log-loss was evaluated to identify potential overfitting issues and determine the appropriate number of stopping rounds for training. Moreover,
@@ -64,4 +66,17 @@ the model was fine-tuned by adjusting the learning rate and estimators to maximi
 In order to gain practical experience in deploying the model, a Restful API was implemented using Flask. The API was set up locally for testing purposes. With the API, clients can send requests with the required parameters and recieve a binary response indicating whether the package will be delivered on time or not. The model achieved a testing accuracy of 67% in this production enviornment.
 
 ## Conclusion, Thoughts and Considerations
+Through this project I achieved the following:
+* Conducted EDA gaining insight on customer
+* Explored five new machine learning algorithms and measured their performance.
+* Evaluated best performing model, tuning using various techniques to maximize performance and accuracy.
+* Simulated putting the model into production and testing locally for evaluation. 
+
+During this project I acquired valuable lessons and considerations:
+* Trends, patterns and correlations were discovered when looking at delivery statuses and customer history.
+* Classification regression is very useful, especially in a binary context. 
+* Understanding Log-loss and how it affects a models training.
+* Implementing cross-validations techniques can estimate the best parameters to employ.
+* Integrating model into a Restful API is critcal to enhance a company and thier resources. 
+* 
 Although the model achieved some level of accuracy, it falls short of the desired performance. Future imporvements could involve incorporating backwards elimination to determine if the model can be enhanced further. Overall, this project provides a valuable opportunity to work with predictive classification models in the context of shipping commerce and exploring advanced machine learning techniques. 

@@ -36,9 +36,17 @@ These models included:
 The objective was to experiment with models that I had not previously encountered and evaluate their performance. 
 
 ## Model Testing
+Once the models were trained, they were tested and evaluated using various metrics. The Mean Absolute Error (MAE) was recorded as well as the negative mean absolute error using cross-validation. Additionally, the accuracy score for each model was calculated to asses their performance.
+Here is how each model performed:
+* XGBoost: MAE - , Accuracy - 67%
+* Light Gradient Boost: MAE - , Accuracy - 66%
+* Naive Bayes-Guassian: MAE - , Accuracy - 64%
+* Logistic Regression: MAE - , Accuracy - 63%
+* K-Nearest Neighbors: MAE, Accuracy - 64%
+* Support Vector Machine: MAE- , Accuracy - 64%
 
 ## Evaluation of Best Model
-
+The XGBoost model demonstrated the best performance based on evaluation metrics. To further enhance its performance, a deeper analysis of the model was conducted. Log-lss
 ## Code and Resource Reference
 **Python Version:** 3.9
 **Packages:** Pandas, Numpy, Sklearn, Lightgbm, XGBoost, Matplotlib, Seaborn, Flask, Json, Pickle
@@ -46,14 +54,8 @@ The objective was to experiment with models that I had not previously encountere
 **Kaggle Dataset:** https://www.kaggle.com/datasets/ulrikthygepedersen/shipping-ecommerce
 **Flask Production:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
+## Putting the Model Into Production
+In order to gain practical experience in deploying the model, a Restful API was implemneted using Flask. The API was set up locally for testing purposes. With the API clients can send requests with the required parameters and recieve a binary response indicating whether the package will be delivered on time or not. The model achieved a testing accuracy of 67% in this production enviornment.
 
-## Model Performance
-* **XGBoost:** Accuracy - 67%
-* **Light Gradient Boost:** Accuracy - 66%
-* **Naive Bayes (Guassian):** Accuracy - 64%
-* **Logistic Regression:** Accuracy - 63%
-* **K-nearest Neighbors:** Accuracy - 64%
-* **Support Vector Machine:** Accuracy - 64%
-
-## Production using Flask
-Similar to my 'House Price Estimator' I built an API using Flask on a local server that can easily scale to a public server. The API take in a request with a list of shipping details and returns whether or not the package will be delivered on time.
+## Conclusion, Thoughts and Considerations
+Although the model achieved some level of accuracy, it falls short of the desired performance. Future imporvements could involve incorporating backwards elimination to determine if the model can be enhanced further. Overall, this project provides a valuable opportunity to work with predictive classification models in the context of shipping commerce and exploring advanced machine learning techniques. 

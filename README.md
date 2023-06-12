@@ -23,8 +23,7 @@ The follow aspects were explored:
 * Correlations between each variable using a heatmap.
 * Comparisons of categorical variables.
 * Analysis of delivered shipments in relation to independent variables using pivot tables.
-![]('Images/customer_boxplot.png') ![]('Images/package_weight_boxplot.png') ![]('Images/heatmap_correlations.png')
-![]('Images/pivot_customer_rating_vs.png') ![]('Images/pivot_discount_offered_vs_class.png')
+![]('Images/customer_boxplot.png') 
 ## Model Exploration and Building
 Since the problem at hand involved classification, a range of classification models were explored.
 These models included:

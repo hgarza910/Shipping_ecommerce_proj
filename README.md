@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Shipping_ecommerce_proj
-# Shipping_ecommerce_proj
-=======
 # E-commerce Shipping Predictor
 ## Overview
 This project focuses on building a predictive calssification model for the E-commerce shipping industry. The goal is to classify shipments as delivered on time or not by leveraging customer and shipment data obtained from an e-commerce 'company'. 
@@ -83,6 +79,5 @@ During this project I acquired valuable lessons and considerations:
 * Understanding Log-loss and how it affects a models training.
 * Implementing cross-validations techniques can estimate the best parameters to employ.
 * Integrating model into a Restful API is critcal to enhance a company and thier resources. 
-* 
+
 Although the model achieved some level of accuracy, it falls short of the desired performance possibly due to overfitting. Future imporvements could involve incorporating backwards elimination to determine if the model can be enhanced further. Overall, this project provides a valuable opportunity to work with predictive classification models in the context of shipping commerce and exploring advanced machine learning techniques. 
->>>>>>> f3030afdf41e9a17ea2701dec32051ee871b636a

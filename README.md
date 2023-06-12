@@ -89,7 +89,7 @@ In order to gain practical experience in deploying the model, a Restful API was 
 
 ## Conclusion, Thoughts and Considerations
 Through this project I achieved the following:
-* Conducted EDA gaining insight on customer
+* Conducted EDA gaining insight on customer data.
 * Explored five new machine learning algorithms and measured their performance.
 * Evaluated best performing model, tuning using various techniques to maximize performance and accuracy.
 * Simulated putting the model into production and testing locally for evaluation. 
@@ -99,6 +99,6 @@ During this project I acquired valuable lessons and considerations:
 * Classification regression is very useful, especially in a binary context. 
 * Understanding Log-loss and how it affects a models training.
 * Implementing cross-validations techniques can estimate the best parameters to employ.
-* Integrating model into a Restful API is critcal to enhance a company and thier resources. 
+* Integrating model into a Restful API is critcal to enhance a company and their resources. 
 
 Although the model achieved some level of accuracy, it falls short of the desired performance possibly due to overfitting. Future imporvements could involve incorporating backwards elimination to determine if the model can be enhanced further. Overall, this project provides a valuable opportunity to work with predictive classification models in the context of shipping commerce and exploring advanced machine learning techniques. 

@@ -12,7 +12,7 @@ The motivation behind this project is to help an international e-commerce compan
 
 ## Data Collection and Cleaning
 The dataset used for this project consists of customers and shipped product information obtained from Kaggle. It comprises data from approximately 11,000 customers and their associated shipments. Fortunately, the dataset required minimal cleaning and preprocessing, allowing for EDA and model building right away.
-![](Images/df_statistics.png)
+![](Images/df_statistics.png width=100 height=100)
 
 ## Exploritory Data Analysis (EDA)
 Before proceeding with the model building phase, an exploritory data analysis (EDA) was conducted to gain a better understanding of the dataset. 

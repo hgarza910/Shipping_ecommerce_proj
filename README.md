@@ -27,7 +27,7 @@ The follow aspects were explored:
 Since the problem at hand involved classification, a range of classification models were explored.
 These models included:
 * Gradient Boost (XGBoost) - Usually the best performing and used as a baseline.
-* Light Gradient Boost - Faster and more optimal than XGBoost, used to compare it.
+* Light Gradient Boost - Faster and more optimal than XGBoost, used to compare XGBoost.
 *  Naive Bayes-Gaussian - Very reliable and simple classification algorithm.
 *  Logistic Regression - Commonly used for binary classification.
 *  K-Nearest Neighbors (KNN) - Simple but was not expecting much with this limited dataset.

@@ -60,11 +60,17 @@ The XGBoost model demonstrated the best performance based on evaluation metrics.
 the model was fine-tuned by adjusting the learning rate and estimators to maximize performance. Both Gridsearch and Randomsearch cross-validation techniques were employed to identify the optimal parameters.
 
 ![](Images/xgboost_log_loss.png) 
+
 ![](Images/xgboost_classification_error.png) 
+
 ![](Images/xgboost_gridsearchcv_best_parameters.png) 
+
 ![](Images/xgboost_gridsearchcv_accuracy.png)
+
 ![](Images/xgboost_randomcv_best_parameters.png) 
+
 ![](Images/xgboost_randomcv_accuracy.png) 
+
 ![](Images/xgboost_tuned_accuracy.png)
 
 ## Code and Resource Reference

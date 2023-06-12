@@ -51,13 +51,17 @@ the model was fine-tuned by adjusting the learning rate and estimators to maximi
 
 ## Code and Resource Reference
 **Python Version:** 3.9
+
 **Packages:** Pandas, Numpy, Sklearn, Lightgbm, XGBoost, Matplotlib, Seaborn, Flask, Json, Pickle
+
 **Web Framework Requirements:** '''pip install -r requirements.txt'''
+
 **Kaggle Dataset:** https://www.kaggle.com/datasets/ulrikthygepedersen/shipping-ecommerce
+
 **Flask Production:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 ## Putting the Model Into Production
-In order to gain practical experience in deploying the model, a Restful API was implemneted using Flask. The API was set up locally for testing purposes. With the API clients can send requests with the required parameters and recieve a binary response indicating whether the package will be delivered on time or not. The model achieved a testing accuracy of 67% in this production enviornment.
+In order to gain practical experience in deploying the model, a Restful API was implemented using Flask. The API was set up locally for testing purposes. With the API, clients can send requests with the required parameters and recieve a binary response indicating whether the package will be delivered on time or not. The model achieved a testing accuracy of 67% in this production enviornment.
 
 ## Conclusion, Thoughts and Considerations
 Although the model achieved some level of accuracy, it falls short of the desired performance. Future imporvements could involve incorporating backwards elimination to determine if the model can be enhanced further. Overall, this project provides a valuable opportunity to work with predictive classification models in the context of shipping commerce and exploring advanced machine learning techniques. 

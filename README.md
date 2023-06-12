@@ -12,6 +12,7 @@ The motivation behind this project is to help an international e-commerce compan
 
 ## Data Collection and Cleaning
 The dataset used for this project consists of customers and shipped product information obtained from Kaggle. It comprises data from approximately 11,000 customers and their associated shipments. Fortunately, the dataset required minimal cleaning and preprocessing, allowing for EDA and model building right away.
+![]('Images/df_statistics.png')
 
 ## Exploritory Data Analysis (EDA)
 Before proceeding with the model building phase, an exploritory data analysis (EDA) was conducted to gain a better understanding of the dataset. 
@@ -22,7 +23,8 @@ The follow aspects were explored:
 * Correlations between each variable using a heatmap.
 * Comparisons of categorical variables.
 * Analysis of delivered shipments in relation to independent variables using pivot tables.
-
+![]('Images/customer_boxplot.png') ![]('Images/package_weight_boxplot.png') ![]('Images/heatmap_correlations.png')
+![]('Images/pivot_customer_rating_vs.png') ![]('Images/pivot_discount_offered_vs_class.png')
 ## Model Exploration and Building
 Since the problem at hand involved classification, a range of classification models were explored.
 These models included:

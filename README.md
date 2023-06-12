@@ -8,7 +8,7 @@ This project focuses on building a predictive calssification model for the E-com
 * Built and integrated model into RESTful API using Flask.
 
 ## Motivation
-The motivation behind this project is to help an international e-commerce company gain key insights by employing advanced machine learning techniques to analyze customer data and gain valuable insights. By exploring vaious machine learning models and tuning techniques, the objective is to identify the best performing mdoel that can accurately predict whether or not a shipment will be delivered on time. 
+The motivation behind this project is to help an international e-commerce company gain key insights by employing advanced machine learning techniques to analyze customer data and enhance their understanding of customer behavior. By exploring vaious machine learning models and tuning techniques, the objective is to identify the best performing mdoel that can accurately predict whether or not a shipment will be delivered on time. 
 
 ## Data Collection and Cleaning
 The dataset used for this project consists of customers and shipped product information ovtained for Kaggle. It comprises data from approximately 11,000 customers and their associated shipments. Fortunately, the dataset required minimal cleaning and preprocessing, allowing for EDA and model building right away.

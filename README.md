@@ -54,7 +54,7 @@ Here is how each model performed:
 ## Evaluation of Best Model
 The XGBoost model demonstrated the best performance based on evaluation metrics. To further enhance its performance, a deeper analysis of the model was conducted. Log-loss was evaluated to identify potential overfitting issues and determine the appropriate number of stopping rounds for training. Moreover,
 the model was fine-tuned by adjusting the learning rate and estimators to maximize performance. Both Gridsearch and Randomsearch cross-validation techniques were employed to identify the optimal parameters.
-
+![](Images/xgboost_log_loss) ![](Images/xgboost_classification_error) ![](Images/xgboost_gridsearchcv_accuracy) ![](Images/xgboost)
 ## Code and Resource Reference
 **Python Version:** 3.9
 

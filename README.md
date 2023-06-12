@@ -46,7 +46,9 @@ Here is how each model performed:
 * Support Vector Machine: MAE- , Accuracy - 64%
 
 ## Evaluation of Best Model
-The XGBoost model demonstrated the best performance based on evaluation metrics. To further enhance its performance, a deeper analysis of the model was conducted. Log-lss
+The XGBoost model demonstrated the best performance based on evaluation metrics. To further enhance its performance, a deeper analysis of the model was conducted. Log-loss was evaluated to identify potential overfitting issues and determine teh appropriate number of stopping rounds for training. Moreover,
+the model was fine-tuned by adjusting the learning rate and estimators to maximize performance. Both Gridsearch and Randomsearch cross-validation techniques were employed to identify the optimal parameters.
+
 ## Code and Resource Reference
 **Python Version:** 3.9
 **Packages:** Pandas, Numpy, Sklearn, Lightgbm, XGBoost, Matplotlib, Seaborn, Flask, Json, Pickle

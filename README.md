@@ -42,11 +42,17 @@ Here is how each model performed:
 * Light Gradient Boost: MAE - , Accuracy - 66%
 * Naive Bayes-Guassian: MAE - , Accuracy - 64%
 * Logistic Regression: MAE - , Accuracy - 63%
-* K-Nearest Neighbors: MAE, Accuracy - 64%
+* K-Nearest Neighbor: MAE, Accuracy - 64%
 * Support Vector Machine: MAE- , Accuracy - 64%
 * 
-| Model | MAE | CV Score | Training Accuracy | Testing Accuracy |
-|:------|:----|:---------|:------------------|:-----------------|
+| Model                   | MAE  | CV Score | Training Accuracy | Testing Accuracy |
+|:------------------------|:-----|:---------|:------------------|:-----------------|
+| XGBoost                 | 0.35 | -0.35    |       88%         |       65%        |
+| Light Gradient Boost
+| Naive Bayes-Gaussian
+| Logistic Regression 
+| K-Nearest Neighbor
+| Support Vector Machine |
 
 ## Evaluation of Best Model
 The XGBoost model demonstrated the best performance based on evaluation metrics. To further enhance its performance, a deeper analysis of the model was conducted. Log-loss was evaluated to identify potential overfitting issues and determine the appropriate number of stopping rounds for training. Moreover,

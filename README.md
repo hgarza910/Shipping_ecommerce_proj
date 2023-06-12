@@ -44,6 +44,7 @@ Here is how each model performed:
 * Logistic Regression: MAE - , Accuracy - 63%
 * K-Nearest Neighbors: MAE, Accuracy - 64%
 * Support Vector Machine: MAE- , Accuracy - 64%
+* 
 | Model | MAE | CV Score | Training Accuracy | Testing Accuracy |
 |:------|:----|:---------|:------------------|:-----------------|
 
